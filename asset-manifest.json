@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/SpotifyLandingPage/static/css/main.e1ac14d1.css",
+    "main.js": "/SpotifyLandingPage/static/js/main.6e705869.js",
+    "static/media/CircularSpotifyText-Medium.otf": "/SpotifyLandingPage/static/media/CircularSpotifyText-Medium.7f8341c6940468e86d8d.otf",
+    "index.html": "/SpotifyLandingPage/index.html",
+    "main.e1ac14d1.css.map": "/SpotifyLandingPage/static/css/main.e1ac14d1.css.map",
+    "main.6e705869.js.map": "/SpotifyLandingPage/static/js/main.6e705869.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e1ac14d1.css",
+    "static/js/main.6e705869.js"
+  ]
+}
