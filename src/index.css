@@ -1,0 +1,9 @@
+@font-face{
+    font-family:"spotify";
+    src: local("CircularSpotifyText-Medium"),
+        url("./fonts/CircularSpotifyText-Medium.otf") format("truetype")
+}
+
+*{
+    margin: 0;
+}

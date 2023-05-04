@@ -1,0 +1,275 @@
+.header{
+    margin: 0;
+    background-color: black;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: CircularSp,spotify-circular,Helvetica,Arial,sans-serif;
+}
+.bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+}
+
+.logo{
+    margin-right:0;
+}
+
+.logo>a{
+    margin: 52px;
+    height: 40px;
+    width: 140px;
+    display: inline-block;
+    color: #fff;
+}
+
+.logo>a>span{
+    text-shadow: none;
+    border: 0;
+    width: 100%;
+    height: 100%;
+    font: 0/0 a;
+    display: inline-block;
+    color: #fff;
+}
+
+.logo>a>span>svg{
+    text-shadow: none;
+    font: 0/0 a;
+    color: #fff;
+}
+
+.logo>a>span>svg>g{
+    fill: currentColor;
+    text-shadow: none;
+    font: 0/0 a;
+    color: #fff;
+}
+
+.nav{
+    background-color: #000000;
+}
+
+.links{
+    display: flex;
+    list-style: none;
+    padding: 2px;
+}
+
+.links>li{
+    margin: 20px;
+    
+}
+
+.links>li>a{
+    display: block;
+    text-decoration: none;
+    font-weight: 700;
+    color: #fff;
+}
+
+.links>li>a:hover{
+    color: #1ed760;
+}
+
+.separator{
+    color: white;
+}
+
+.button{
+    display: none;
+}
+
+.button{
+    display:none;
+}
+
+.overlay{
+    display: none;
+}
+
+@media only screen and (max-width: 823px) {
+    .header{
+        background-color: black;
+    }
+    .nav{
+        display: none;
+    }
+    
+    .logo{
+        margin: 0px !important;
+    }
+
+    .logo>a{
+        margin-left: 10px ;
+    }
+
+    .button{
+        background-color: #000000;
+        height: 50px;
+        width: 50px;
+        display: flex;
+        border: none;
+        z-index: 2;
+        margin-right: 21px;
+    }
+
+    .active .top{
+        transform: rotate(45deg) translate(20px,-17px) ;
+        transition: 0.5s;
+    }
+
+    .active .middle{
+        opacity:0
+    }
+
+    .active .bottom{
+        transform: rotate(-45deg) translate(-65px,-2px);
+        transition: 0.5s;
+    }
+
+    .inactive .top{
+        transition: 0.5s;
+    }
+
+    .inactive .middle{
+        transition: 1s;
+    }
+
+    .inactive .bottom{
+        transition: 0.5s;
+    }
+
+    .inactive+.overlay{
+        display: none;
+    }
+
+    .active+.overlay{
+        left: 0;
+        top: 0;
+        display: block;
+        background-color: rgba(0, 0, 0, 0.75);
+        width: 100vw;
+        height: 100vh;
+        position: fixed;
+        z-index: 1;
+        font-family: spotify;
+    }
+
+    .mobileNav{
+        right: 0;
+        background-color: #000000;
+        border-width: 0;
+        margin: 0;
+        padding: 38px;
+        height: 100vh;
+        top: 0;
+        position: fixed;
+        width: 447px;
+        max-width: 100vw;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .mobileNAv>ul{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .Premium>a{
+        cursor: pointer;
+        display: block;
+        line-height: 1;
+        font-weight: 700;
+        font-size: 36px;
+        text-decoration: none;
+        color: white;
+        margin-bottom: 20px;
+    }
+    .Premium>a:hover{
+        color: #1ed760;
+    }
+
+    .Support>a{
+        cursor: pointer;
+        display: block;
+        line-height: 1;
+        font-weight: 700;
+        font-size: 36px;
+        text-decoration: none;
+        color: white;
+        margin-bottom: 20px;
+    }
+    .Support>a:hover{
+        color: #1ed760;
+    }
+
+    .Download>a{
+        cursor: pointer;
+        display: block;
+        line-height: 1;
+        font-weight: 700;
+        font-size: 36px;
+        text-decoration: none;
+        color: white;
+        margin-bottom: 20px;
+    }
+    .Download>a:hover{
+        color: #1ed760;
+    }
+
+    .HgSeparator{
+        height: 2px;
+        width: 20px;
+        background-color: white;
+        margin: 18px 0 40px;
+    }
+
+    .SignUp>a{
+        font-weight: 400;
+        font-size: 28px;
+        cursor: pointer;
+        color: #d9dadc;
+        text-decoration: none;
+        margin-bottom: 40px; 
+    }
+    .SignUp>a:hover{
+        color: #1ed760;
+    }
+
+    .SignIn>a{
+        font-weight: 400;
+        font-size: 28px;
+        cursor: pointer;
+        color: #d9dadc;
+        text-decoration: none;   
+    }
+
+    .SignIn>a:hover{
+        color: #1ed760;
+    }
+
+    
+}
+
+@media only screen and (max-width: 1384px){
+    .logo{
+        margin-right:0;
+    }
+
+    .bar{
+        width: 100%;
+        height: 100%;
+        justify-content: space-between;
+    }
+
+    .header{
+        justify-content: flex-start;
+    }
+
+}

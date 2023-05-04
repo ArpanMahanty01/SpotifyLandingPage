@@ -1,0 +1,39 @@
+.a{
+    font-size: 14px;
+    line-height: 20px;
+    text-transform: none;
+    letter-spacing: normal;
+    font-family:spotify;
+    font-weight:800 !important;
+    background-color: transparent;
+    border: 0px none;
+    border-radius: 500px;
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-transform: none;
+    touch-action: manipulation;
+    transition-duration: 33ms;
+    transition-property: background-color, border-color, color, box-shadow, filter, transform;
+    vertical-align: middle;
+    transform: translate3d(0px, 0px, 0px);
+    padding: 0px;
+    min-inline-size: 0px;
+    width: 225px;
+    margin: 10px !important;
+}
+
+.a:hover{
+    transform: scale(1.1);
+}
+
+a>div{
+    border-radius: 500px;
+    font-size: inherit;
+    padding-block: 14px;
+    padding-inline: 32px;
+    color:black;
+    background-color: white;
+    position: relative;
+}
